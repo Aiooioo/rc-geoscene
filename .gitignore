@@ -10,6 +10,8 @@
 
 # production
 /build
+dist
+/storybook-static
 
 # misc
 .DS_Store
@@ -17,6 +19,10 @@
 .env.development.local
 .env.test.local
 .env.production.local
+
+# ide
+/.idea
+/.vs-code
 
 npm-debug.log*
 yarn-debug.log*
